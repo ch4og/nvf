@@ -15,13 +15,13 @@
       noice.enable = true;
       colorizer.enable = true;
     };
-    visuals.indent-blankline = {
-      enable = true;
-      setupOpts = {
-        scope.exclude.language = ["dashboard"];
-        indent.tab_char = "|";
-      };
-    };
+    # visuals.indent-blankline = {
+    #   enable = true;
+    #   setupOpts = {
+    #     scope.exclude.language = ["dashboard"];
+    #     indent.tab_char = "|";
+    #   };
+    # };
     git.gitsigns.enable = true;
     autopairs.nvim-autopairs.enable = true;
     # notes.obsidian.enable = true;
