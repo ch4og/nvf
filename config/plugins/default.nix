@@ -33,7 +33,7 @@
       };
       motion.leap.enable = true;
       images.image-nvim = {
-        enable = true;
+        enable = false;
         setupOpts = {
           backend = "kitty";
           integrations.markdown = {
