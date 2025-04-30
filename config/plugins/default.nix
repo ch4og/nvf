@@ -24,7 +24,6 @@
     # };
     git.gitsigns.enable = true;
     autopairs.nvim-autopairs.enable = true;
-    # notes.obsidian.enable = true;
     utility = {
       vim-wakatime.enable = true;
       surround.enable = true;
@@ -33,12 +32,12 @@
       };
       motion.leap.enable = true;
       images.image-nvim = {
-        enable = false;
+        enable = true;
         setupOpts = {
           backend = "kitty";
           integrations.markdown = {
-            # clearInInsertMode = true;
-            # onlyRenderAtCursor = true;
+            clearInInsertMode = true;
+            onlyRenderAtCursor = true;
             downloadRemoteImages = true;
           };
         };
